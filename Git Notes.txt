@@ -1,0 +1,29 @@
+Git 
+
+git config --global user.name <Username>
+git config --global user.email <email>
+
+git status
+
+git add filename	/ git add -A
+
+git commit -m "This is Git commit Demo"
+
+git checkout About.html
+git checkout -f
+
+git log
+git log -P -1
+
+***** Direct Commit
+git commit -a -m "Commiting directly without Staging"
+
+git rm --cached <FileName>
+
+git rm -f <FileName>
+
+.gitignore is the file to add those files which you want to ignore
+/Mylogs
+.cpp
+*.logs
+
